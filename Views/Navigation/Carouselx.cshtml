@@ -1,0 +1,14 @@
+<h1>CarouselIndegene</h1>
+
+@using SitecoreCookbook.Helpers
+@model IEnumerable<SitecoreCookbook.Models.CarouselSlidex>
+<div class="carousel-inner" role="listbox">
+    @foreach (var item in Model)
+    {
+        <div>
+            <a href="@item.Urlx" title="@item.Title">
+                @item.Image
+            </a>
+        </div>
+    }
+</div>
