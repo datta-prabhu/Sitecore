@@ -11,7 +11,7 @@ namespace SitecoreCookbook
     {
         protected void Application_Start()
         {
-            AreaRegistration.RegisterAllAreas();
+  		   AreaRegistration.RegisterAllAreas();
             RouteConfig.RegisterRoutes(RouteTable.Routes);
         }
     }
